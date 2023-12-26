@@ -1,0 +1,380 @@
+/* @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --font-quick: "Quicksand", sans-serif;
+  --font-dancing: "Dancing Script", cursive; */
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+  background-color: #08233c;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-size: 10px;
+}
+
+
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+/* Navbar section */
+
+/* write css for nav bar */
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #1f2123;
+  -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+/* remaining */
+.app {
+  padding: 4rem;
+
+.nav .logo {
+  width: 140px;
+  height: 100%;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.nav .logo img {
+  width: 100%;
+}
+
+.nav .menu {
+  width: calc(100% - 300px);
+  height: 100%;
+  float: right;
+}
+
+.nav .menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+}
+
+.nav .menu ul li {
+  list-style: none;
+}
+
+.nav .menu ul li a {
+  height: 100%;
+  line-height: 80px;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+
+.nav .menu ul li a:hover {
+  background-color: #1f2123;
+}
+
+.nav .menu .user {
+  width: 300px;
+  height: 100%;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.nav .menu .user img {
+  width: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav .menu .user h4 {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.nav .menu .user h4 span {
+  font-size: 0.8rem;
+  font-weight: normal;
+  display: block;
+}
+
+.nav .menu .user .logout {
+  display: none;
+}
+
+.nav .menu .user .logout a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  transition: 0.4s ease;
+}
+
+.nav .menu .user .logout a:hover {
+  color: #f9d3b4;
+}
+
+.nav .menu .user.active .logout {
+  display: block;
+}
+
+/* end navbar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  justify-content:center ;
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  color: #f7dd6f;
+  padding-top: 10px;
+  font-family: var(--font-dancing);
+  
+
+}
+h2{
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  color: #f7dd6f;
+  font-family: var(--font-dancing);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 71%;
+  margin: 4rem 0 2rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.5rem 1.75rem;
+  border-radius: 3rem;
+  background: #1f2123;
+  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+}
+
+.search input {
+  flex: 1;
+  border: none;
+  font-size: 1.5rem;
+  /* font-family: var(--font-raleway); */
+  font-weight: 500;
+  padding-right: 1rem;
+
+  outline: none;
+  color: #aeacac;
+  background: #1f2123;
+}
+
+.search img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+/* .search button {
+  padding: 20px 40px;
+  border-radius: 0.5rem;
+  margin-left: 15px;
+  color: #a1a1a1;
+  font-family: var(--font-raleway);
+  font-weight: 900;
+  letter-spacing: 0.75px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  background: #1f2123;
+  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+} */
+
+.empty {
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty h2 {
+  font-size: 1.25rem;
+  color: #f9d3b4;
+  /* font-family: var(--font-raleway); */
+}
+
+.container {
+  width: 120%;
+  /* margin-top: 3rem; */
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 250px;
+  height: 300px;
+  margin: 1.5rem;
+
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.movie div:nth-of-type(1) {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  color: #f9d3b4;
+}
+
+.movie:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+
+.movie div:nth-of-type(2) {
+  width: 100%;
+  height: 100%;
+}
+
+.movie div:nth-of-type(2) img {
+  height: 100%;
+  width: 100%;
+}
+
+.movie div:nth-of-type(3) {
+  
+  z-index: 2;
+  background-color: #b8b8c4;
+  padding: 16px 24px 24px 24px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0; /* Hide the div initially */
+  transition: opacity 0.5s; /* Smooth transition */
+
+}
+
+.movie div:nth-of-type(3) span {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #f5f0f0;
+}
+
+.movie div:nth-of-type(3) h3 {
+  margin-top: 5px;
+  font-family: "Roboto Slab", serif;
+  color: #f5f3f1;
+}
+
+.movie:hover div:nth-of-type(2) {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.movie:hover div:nth-of-type(3) {
+  background-color: transparent;
+  opacity: 1; 
+}
+.movie:hover div:nth-of-type(3) h3{
+  background-color: transparent;
+  color: #f9d3b4;
+}
+
+
+.movie:hover div:nth-of-type(1) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 4rem 2rem;
+  }
+
+  .search {
+    padding: 1rem 1.75rem;
+    width: 100%;
+  }
+
+  .search input {
+    font-size: 1rem;
+  }
+
+  .search img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    padding: 4rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    margin-top: 2rem;
+  }
+
+  .movie {
+    width: "100%";
+    margin: 1rem;
+  }
+}
