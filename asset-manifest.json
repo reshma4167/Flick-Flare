@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Flick-Flare/static/css/main.d72f0e77.css",
-    "main.js": "/Flick-Flare/static/js/main.568f014e.js",
+    "main.js": "/Flick-Flare/static/js/main.b76b5ac1.js",
     "static/js/787.28cb0dcd.chunk.js": "/Flick-Flare/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Flick-Flare/index.html",
     "static/media/search.svg": "/Flick-Flare/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
     "main.d72f0e77.css.map": "/Flick-Flare/static/css/main.d72f0e77.css.map",
-    "main.568f014e.js.map": "/Flick-Flare/static/js/main.568f014e.js.map",
+    "main.b76b5ac1.js.map": "/Flick-Flare/static/js/main.b76b5ac1.js.map",
     "787.28cb0dcd.chunk.js.map": "/Flick-Flare/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d72f0e77.css",
-    "static/js/main.568f014e.js"
+    "static/js/main.b76b5ac1.js"
   ]
 }
